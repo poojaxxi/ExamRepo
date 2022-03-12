@@ -6,18 +6,18 @@ public class WrapperExample
 {
 	public static void main(String[] args) 
 	{
-		System.out.println("[Password range:8-20,Begin with letter,1 Uppercase Char,1 Lowercase Char,1 Digit,1 Special Char(_,-,#,$)]");
+		System.out.println("[Password Range:8-20,Begin with letter,1 Uppercase Char,1 Lowercase Char,1 Digit,1 Special Char(_,-,#,$)]");
 		int x=0;
 		while(x++<5)
 		{
 			Scanner sc=new Scanner(System.in);
-			System.out.println("Enter the Password: ");
+			System.out.println("Enter The Password: ");
 			String s=sc.next();
 			boolean res=verify(s);
 			if(res)
 			{
-				System.out.println("Password is valid");
-				System.out.println("Congratulations your password is set!");
+				System.out.println("Password Is Valid");
+				System.out.println("Congratulations Your Password Is Set!");
 				break;
 			}
 			else
